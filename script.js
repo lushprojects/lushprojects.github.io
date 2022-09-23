@@ -42,14 +42,17 @@ $(document).ready(function() {
             case "ABLP":
                 targetDiv = offSetsTop[1]
                 break;
-            case "Pr":
+            case "Exp":
                 targetDiv = offSetsTop[2]
                 break;
+            case "Pr":
+                targetDiv = offSetsTop[3]
+                break;
             case "Tech":
-                targetDiv = offSetsTop[3] + 50
+                targetDiv = offSetsTop[4] + 50
                 break;
              case "Con":
-                targetDiv = offSetsTop[4]
+                targetDiv = offSetsTop[5]
                 break;
         }
 
