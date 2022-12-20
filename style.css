@@ -128,9 +128,13 @@ p
     justify-content: left;
     display: inline-block;
 }
-.projects>img
+.imgContent
 {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 .rounded
 {
@@ -144,7 +148,7 @@ p
 }
 .technologies a
 {
-    width: 9.2%;
+    width: 10%;
 }
 .reveal{
     transform: translateY(-150px);
