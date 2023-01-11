@@ -1,5 +1,7 @@
 let banner = document.getElementById("banner")
+let year = document.getElementById("year")
 banner.style.height = window.innerHeight+"px"
+year.innerHTML = new Date().getFullYear()
 
 let menuItems = document.querySelectorAll(".menuItem")
 let contentsId = []
